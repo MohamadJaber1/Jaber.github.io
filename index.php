@@ -26,7 +26,7 @@
    ================================================== -->
 	<script src="js/modernizr.js"></script>
 
-   <!-- Favicons
+   <!-- Icon
 	================================================== -->
 	<link rel="shortcut icon" href="images/programmer.png" >
 
@@ -350,7 +350,7 @@
 
                   <div>
                      <button class="submit">Submit</button>
-                     <span id="image-loader">
+                     <span id="image-loader" style="display: none;"> 
                         <img alt="" src="images/loader.gif">
                      </span>
                   </div>
@@ -359,7 +359,7 @@
 				   </form> <!-- Form End -->
 
                <!-- contact-warning -->
-               <div id="message-warning"> Error </div>
+               <div id="message-warning" style="display: block;"> Error :'( </div>
                <!-- contact-success -->
 				   <div id="message-success">
                   <i class="fa fa-check"></i>Your message was sent, thank you!<br>
