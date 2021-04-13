@@ -1,92 +1,435 @@
 <!DOCTYPE html>
-<html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-    <meta charset="UTF-8">
-    <title>Personal Website</title>
-    <link rel="stylesheet" href="css/style.css" type="text/css">
-    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"> </script>
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Mohamad Jaber</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/programmer.png" >
+
 </head>
 
 <body>
-    <section>
-       <!--navigation-->
-       <nav>
-        <!--logo-->
-        <a href="#" class="logo">Portfolio</a>
-        <!--menu-->
-        <ul>
-        <li><a href="#" class="active">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-        </ul>
-       </nav>
-    </section>
-    <!--text-->
-        <div class="text-container">
-        <p>Hello</p>
-        <p>I'M MOHAMAD</p>
-        <p>I am a Software Developer <br>in Artificial Intelligence</p>
-        <button class="down-cv"> Download CV </button>
-        </div>
 
-    <!--Display pic-->
-        <img src="images/displayPic.jpg" class="displayPic" alt="displayPic">
+   <!-- Header
+   ================================================== -->
+   <header id="home">
 
-    <!--About section-->
-        <div class="about-container">
+      <nav id="nav-wrap">
 
-    <!--img-->
-        <img src ="images/displayPicBW.jpg">
-            <div class = "about-text">
-            <p>About Me</p>
-            <p>Software Developer</p>
-            <p>Hello, my name is Mohamad Jaber. I am a Software Developer - Aritificial Intelligence.</p>
-            <p> My daily routine work includes: Preparing Data,
-             Extracting Valuable Features, Designing, Developing and Optimizing Neural Networks, 
-            Evaluating Results, and never cease to bring new ideas for development.
-            </p>
-            <!--button-->
-            <button>Download CV</button>
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
+            <li><a class="smoothscroll" href="#contact">Contact</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">Hi, I'm Mohamad Jaber.</h1>
+            <h3><span>I'm a software developer who is passionate in building machine learning solutions for actual use-cases.
+               Let's <a class="smoothscroll" href="#about">start scrolling</a>
+            and learn more <a class="smoothscroll" href="#about">about me</a>.</h3></span>
+            <hr />
+            <ul class="social">
+               <li><a href="https://www.linkedin.com/in/mohamadjaber1/"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://www.instagram.com/jaber_rise/"><i class="fa fa-instagram"></i></a></li>
+               <li><a href="https://github.com/MohamadJaber1"><i class="fa fa-github"></i></a></li>
+
+            </ul>
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="images/MohamadJaberPhoto.jpg" alt="" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>About Me</h2>
+
+            <p> I am a software developer who is passionate in building machine learning 
+               solutions for actual use-cases. I have received an M.Sc. in Automation and 
+               Robotics and a B.Sc. in Electrical Engineering. </p>
+            
+            <p> Since I was a child, I have always been fascinated with the realms of logic 
+               and numbers (or specifically, data structures and algorithms). I got to appreciate 
+               the elegance of "Python" that allowed me to apply a lot of abstract ideas into 
+               practice. Also, I enjoy programming with Linux OS. </p>
+
+            
+            <p> My interests also lie in deep learning, computer vision, natural language processing, 
+               statistical inference, data visualization as well as in photography. </p>
+
+            <p> Specialities: Python, TensorFlow, Keras, OpenCV, pandas, NumPy, Git/Github. 
+               Also, problem solving & quickly learning new skills. </p>
+
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+      <!-- Work
+      ----------------------------------------------- -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Experience</span></h1>
+         </div>
+
+         <div class="twelve columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+                  <h3>Software Developer - AI</h3>
+                  <h5>invenio Virtual Technologies GmbH</h5>
+                  <p class="info">Munich, Germany <span>&bull;</span> <em class="date">March 2020 - Present</em></p>
+
+                  <p>
+                     My work involves the entire process of typical machine learning projects including 
+                     data preparation and preprocessing, data splitting, modelling, evaluation and deployment. 
+                     Some of the stuffs I've done: <br> 
+                     <span>&bull;</span> Prepared data by cleaning errors in data and having consistent labelling.<br> 
+                     <span>&bull;</span> Selected and extracted relevant features using preprocessing and statistical algorithms.<br> 
+                     <span>&bull;</span> Designed and optimized neural network models for solving real-world classification problem using TensorFlow.<br> 
+                     <span>&bull;</span> Evaluated models using learning curves that ensured an improved fit model performance.<br> 
+                     <span>&bull;</span> Implemented ensemble learning that reduced the variance of predictions and the generalization error.<br> 
+                     <span>&bull;</span> Adapted state-of-the-art algorithms such as Uncertainty Quantification, PointNet and Attention-based Learning.<br> 
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Master Thesis Student</h3>
+                  <h5>ABB Corporate Research Center</h5>
+                  <p class="info">Ladenburg, Germany <span>&bull;</span> <em class="date">March 2019 - August 2019</em></p>
+                  
+                  <p>
+                     <span>&bull;</span> Implemented state-of-the-art object detection and classification machine learning models using TensorFlow.<br> 
+                     <span>&bull;</span> Generated and prepared image data with their annotations for multiple objects pose using Unreal Engine.<br> 
+                     <span>&bull;</span> Trained and optimized machine learning models for object detection and pose estimation using PyTorch.<br> 
+                     <span>&bull;</span> Deployed trained models in RobotStudio allowing the robot to autonomously interact with the objects.<br> 
+                  </p>
+
+               </div>
+
+               <div class="twelve columns">
+
+                  <h3>Intern</h3>
+                  <h5>ABB Corporate Research Center</h5>
+                  <p class="info">Ladenburg, Germany <span>&bull;</span> <em class="date">December 2018 - February 2019</em></p>
+                  
+                  <p>
+                     <span>&bull;</span> Conducted and presented a case study technical report on a data science topic.<br> 
+                     <span>&bull;</span> Recognized the importance of vision for robots and formulated a topic based on it.<br>
+                  </p>
+
+               </div>
+
+               <div class="twelve columns">
+
+                  <h3>Intern</h3>
+                  <h5>Fraunhofer Institute for Manufacturing Engineering and Automation</h5>
+                  <p class="info">Stuttgart, Germany <span>&bull;</span> <em class="date">May 2018 - October 2018</em></p>
+                  
+                  <p>
+                     <span>&bull;</span> Calculated and configured the kinematics of KUKA robots in MATLAB.<br> 
+                     <span>&bull;</span> Supported the team in literature research and preparation of presentations.<br>
+                  </p>
+
+               </div>
+
+               <div class="twelve columns">
+
+                  <h3>Research Student Assistant</h3>
+                  <h5>Technical University of Dortmund</h5>
+                  <p class="info">Dortmund, Germany <span>&bull;</span> <em class="date">April 2017 - March 2018</em></p>
+
+                  <p>
+                     <span>&bull;</span> Extended and developed an existing MILP optimization problem using Pyomo.<br> 
+                     <span>&bull;</span> Documented the developed model into a research paper withmy supervisor.<br>
+                     <span>&bull;</span> Visualized and analyzed energy data in Python for power consumption in Dortmund.<br>
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Education</span></h1>
+         </div>
+
+         <div class="twelve columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Master of Science in Automation and Robotics</h3>
+                  <h5>Technical University of Dortmund</h5>
+                  <p class="info">Dortmund, Germany <span>&bull;</span> <em class="date">October 2016 - October 2019</em></p>
+
+                  <p>
+                     <span>&bull;</span> Master thesis: Adaptive Execution of Robot Skills using Computer Vision.<br> 
+                     <span>&bull;</span> Project group: Design and Real-time Implementation of a Nonlinear Model Predictive Control based on a Neural Network
+                     Model Applied to a Dynamic Plant.<br>
+                     <span>&bull;</span> Specialized subjects: Machine Learning, Computer Science, Statistics, Advanced Mathematics.<br>
+                  </p>
+
+               </div>
+
+               <div class="twelve columns">
+
+                  <h3>Bachelor of Science in Electrical Engineering</h3>
+                  <h5>Lebanese International University</h5>
+                  <p class="info">Beirut, Lebanon <span>&bull;</span> <em class="date">October 2013 - August 2016</em></p>
+
+                  <p>
+                     <span>&bull;</span> Bachelor thesis: Smart Automated System for the Protection of Solar Panels.<br> 
+                     <span>&bull;</span> Specialized subjects: Statistics, Linear Algebra, Calculus.<br>
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+      <!-- Certifications
+      ----------------------------------------------- -->
+      <div class="row certifications">
+
+         <div class="three columns header-col">
+            <h1><span>Certifications</span></h1>
+         </div>
+
+         <div class="twelve columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Machine Learning</h3>
+                  <h5>Stanford University, Coursera</h5>
+                  <p class="info">Credential ID: 65U8KCMDLYQP<span>&bull;</span> <em class="date">2020 </em><br> </p>
+
+               </div>
+
+               <div class="twelve columns">
+
+                  <h3>Complete Guide to TensorFlow for Deep Learning with Python</h3>
+                  <h5>Pierian Data Inc., Udemy</h5>
+                  <p class="info">Credential ID: UC-RHHPEEYQ<span>&bull;</span> <em class="date">2019 </em><br> </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+   </section> <!-- Resume Section End-->
+
+
+   <!-- Contact Section
+   ================================================== -->
+   <section id="contact">
+
+         <div class="row section-head">
+
+            <div class="two columns header-col">
+
+               <h1><span>Get In Touch.</span></h1>
+
             </div>
-        </div>
 
-    <!--contact-->
-    <div class="contact">
-        <p>Below are my contact details</p>
-        <button> Contact </button>
-    </div>
+            <div class="ten columns">
 
-    <!--footer-->
-    <footer>
-        <p>After all this time?</p>
-        <p>Always</p>
-        <div class="social-icons">
-            <a href="#"> <i class="fab fa-facebook"></i></a>
-            <a href="#"> <i class="fab fa-twitter"></i></a>
-            <a href="#"> <i class="fab fa-instagram"></i></a>
-            <a href="#"> <i class="fab fa-youtube"></i></a>
-        </div>
-    </footer>
+                  <p class="lead">Feel free to reach me out. I will be more than happy to have a conversation related to my work, studies or interests. 
+                  </p>
 
-    <!--social-attach-bar-->
-	<div class="social">
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-youtube"></i></a>
-    </div>
+            </div>
+
+         </div>
+
+         <div class="row">
+
+            <div class="eight columns">
+
+               <!-- form -->
+               <form action="inc/sendEmail.php" method="post" id="contactForm" name="contactForm">
+					<fieldset>
+
+                  <div>
+						   <label for="contactName">Name <span class="required">*</span></label>
+						   <input type="text" value="" size="35" id="contactName" name="contactName">
+                  </div>
+
+                  <div>
+						   <label for="contactEmail">Email <span class="required">*</span></label>
+						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
+                  </div>
+
+                  <div>
+						   <label for="contactSubject">Subject</label>
+						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
+                  </div>
+
+                  <div>
+                     <label for="contactMessage">Message <span class="required">*</span></label>
+                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                  </div>
+
+                  <div>
+                     <button class="submit">Submit</button>
+                     <span id="image-loader">
+                        <img alt="" src="images/loader.gif">
+                     </span>
+                  </div>
+
+					</fieldset>
+				   </form> <!-- Form End -->
+
+               <!-- contact-warning -->
+               <div id="message-warning"> Error </div>
+               <!-- contact-success -->
+				   <div id="message-success">
+                  <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+				   </div>
+
+            </div>
+
+
+            <aside class="four columns footer-widgets">
+
+               <div class="widget widget_contact">
+
+					   <h4>Location</h4>
+					   <p class="address">
+						   Mohamad Jaber<br>
+						   Munich, Germany<br>
+					   </p>
+
+				   </div>
+
+            </aside>
+
+      </div>
+
+   </section> <!-- Contact Section End-->
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+               <li><a href="https://www.linkedin.com/in/mohamadjaber1/"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://www.instagram.com/jaber_rise/"><i class="fa fa-instagram"></i></a></li>
+               <li><a href="https://github.com/MohamadJaber1"><i class="fa fa-github"></i></a></li> 
+            </ul>
+
+            <ul class="copyright">
+               <li>&copy; Copyright 2021 Mohamad Jaber</li>
+               <li>Design by <a href="http://www.styleshout.com/" title="Styleshout" target="_blank">Styleshout</a></li> 
+               <li>Icon made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik" target="_blank">Freepik</a> 
+                  from  <a href="https://www.flaticon.com/" title="www.flaticon.com" target="_blank">www.flaticon.com</a>
+               </li>
+               
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
 
 </body>
-
- <!--JQUery-------------------->
- <script type="text/javascript" src="js/JQuery.js"></script>
- <script type="text/javascript">
- $(document).ready(function(){
-     $('.toggle').click(function(){
-         $('.toggle').toggleClass('active')
-         $('nav').toggleClass('active')
-     })
- })
- </script>
 
 </html>
